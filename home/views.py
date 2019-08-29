@@ -7,6 +7,7 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
+	{'name':'boto3', 'url': 'http://pypi.python.org/pypi/boto3/1.5.15'},
 	{'name':'django-googlecalendar', 'url': 'http://pypi.python.org/pypi/django-googlecalendar/3.0.0'},
 	{'name':'djangorestframework', 'url': 'http://pypi.python.org/pypi/djangorestframework/3.7.7'},
 	{'name':'django-bootstrap4', 'url': 'http://pypi.python.org/pypi/django-bootstrap4/0.0.5'},
